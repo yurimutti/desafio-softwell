@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/simple-anime.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+
+<main>
+    <h1>Cadastro</h1>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                    <form>
+                        <div class="form-group pb-3">
+                            <label for="clienteEmail" class="pb-1">Nome</label>
+                            <input type="text" class="form-control" id="clienteEmail" placeholder="Nome completo">
+                        </div>
+                        <div class="form-group pb-3">
+                            <label for="clienteNascimento" class="pb-1" onblur='dateValidation(this)'>Data de nascimento</label>
+                            <input type="text" class="form-control" id="clienteNascimento" placeholder="dd/mm/aaaa">
+                        </div>
+                        <div class="form-group pb-3">
+                            <label for="clienteMae" class="pb-1">Nome da mãe</label>
+                            <input type="text" class="form-control" id="clienteMae" placeholder="Mãe">
+                        </div>
+                        <div class="form-group pb-3">
+                            <label for="clienteEmail" class="pb-1">Email</label>
+                            <input type="email" class="form-control" id="clienteEmail" placeholder="Email">
+                        </div>
+
+                        <div class="form-group pb-3">
+                            <label for="clienteRg" class="pb-1">RG</label>
+                            <input type="text" class="form-control" id="clienteRg" placeholder="xx.xxx.xxx-xx">
+                        </div>
+                        <div class="form-group">
+                            <label for="clienteCpf" class="pb-1">CPF</label>
+                            <input type="text" class="form-control" id="clienteCpf"  placeholder="xxx.xxx.xxx-xx">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg mt-4">Enviar</button>
+                    </form>
+            </div>
+            <div class="col-6" data-tilt > 
+                <img src="img/home-page-img.svg" alt="ilustração natureza" class="home-img">
+            </div>
+        </div>
+    </div>
+    <div class="gaivota">
+        <img src="img/gaivota.svg" alt="gaivota">
+        <img src="img/gaivota.svg" alt="gaivota">
+        <img src="img/gaivota.svg" alt="gaivota">
+    </div>
+</main>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/tilt.jquery.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

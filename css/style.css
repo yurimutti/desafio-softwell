@@ -1,0 +1,78 @@
+/* Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(116.81deg, #0E2E54 0%, #041D3B 99.32%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0; right: 0;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Main */
+
+.gaivota img:nth-child(1) {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    width: 14vw;
+    height: 14vw;
+    z-index: -1;
+}
+
+.gaivota img:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 4vw;
+    height: 4vw;
+}
+
+.gaivota img:nth-child(3) {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: -1;
+    width: 10vw;
+    height: 10vw;
+}
+
+.home-img {
+    width: 42vw;
+    height: 42vw;
+    padding-left: 40px;
+}
+
+input { 
+    text-transform: uppercase;
+}
+
+/* Responsivo */
+
+@media (max-width: 767px) {
+    .home-img {
+        display: none;
+    }
+}
+

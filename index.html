@@ -22,7 +22,7 @@
                             <input type="text" class="form-control" id="clienteEmail" placeholder="Nome completo">
                         </div>
                         <div class="form-group pb-3">
-                            <label for="clienteNascimento" class="pb-1" onblur='dateValidation(this)'>Data de nascimento</label>
+                            <label for="clienteNascimento" class="pb-1" onblur='dateValidation(this)'>Data de nascimento*</label>
                             <input type="text" class="form-control" id="clienteNascimento" placeholder="dd/mm/aaaa">
                         </div>
                         <div class="form-group pb-3">
@@ -30,7 +30,7 @@
                             <input type="text" class="form-control" id="clienteMae" placeholder="Mãe">
                         </div>
                         <div class="form-group pb-3">
-                            <label for="clienteEmail" class="pb-1">Email</label>
+                            <label for="clienteEmail" class="pb-1">Email*</label>
                             <input type="email" class="form-control" id="clienteEmail" placeholder="Email">
                         </div>
 
@@ -45,12 +45,12 @@
                         <button type="submit" class="btn btn-primary btn-lg mt-4">Enviar</button>
                     </form>
             </div>
-            <div class="col-6"> 
-                <img data-tilt src="img/home-page-img.svg" alt="ilustração natureza" class="home-img">
+            <div class="col-6" data-tilt> 
+                <img src="img/home-page-img.svg" alt="ilustração natureza" class="home-img">
             </div>
         </div>
     </div>
-    <div class="gaivota">
+    <div class="gaivota" >
         <img src="img/gaivota.svg" alt="gaivota">
         <img src="img/gaivota.svg" alt="gaivota">
         <img src="img/gaivota.svg" alt="gaivota">
@@ -59,6 +59,7 @@
 
 
 <script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/tilt.jquery.js"></script>
 <script src="js/jquery.mask.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/popper.min.js"></script>
